@@ -1,7 +1,19 @@
- 
+
+
+
 
 .wrapper-masthead {
- background-color: white;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.masthead {
+  padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
+
+  @include mobile {
+    text-align: center;
+  }
 }
 
 
