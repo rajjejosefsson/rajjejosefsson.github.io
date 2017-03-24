@@ -1,0 +1,48 @@
+// Post list
+
+.post-single {
+  border-bottom: 1px solid #e7e5e5;
+  padding-bottom: 47px;
+  margin: 48px 0;
+  text-align: center;
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  &__link {
+    display: block;
+  }
+
+
+  &__title {
+    text-align: center;
+    color: #384455;
+    a {
+      color: #384455;
+      transition: color 0.3s;
+      &:hover {
+        color: $green;
+      }
+    }
+    font: {
+      family: "open_sansregular", "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    }
+    @media screen and (max-width: 600px) {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    margin: 0 0 32px 0;
+  }
+
+  .post__meta {
+    text-align: center;
+  }
+
+  &__content {
+    color: #282f3a;
+  }
+
+
+
+}
