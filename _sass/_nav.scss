@@ -5,6 +5,9 @@
   width: 100%;
   height: 70px;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
  }
 
 
@@ -23,10 +26,8 @@ list-style-type: none;
     color: #fff;
     text-decoration: none;
     letter-spacing: 3px;
-    display: block;
     padding: 24px 30px;
-    font-size: 13px;
-  
+    font-size: 15px;
 }
 
 
