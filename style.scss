@@ -265,11 +265,20 @@ nav {
     margin-top: 10px;
   }
 
-  .read-more {
-    text-transform: uppercase;
+  .read-more-button {
     font-size: 15px;
   }
 }
+
+input, textarea, read-more-button, a {
+  transition: 0.2s color ease,
+              0.2s background ease;
+
+  &:focus {
+    outline: none;
+  }
+}
+
 
 .wrapper-footer {
   margin-top: 50px;
