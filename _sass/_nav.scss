@@ -11,14 +11,25 @@
  background-color: black;
 }
 
-.nav li {
-  float: left;
-}
 
 .nav ul {
 list-style-type: none;
 }
 
+
+.nav li {
+  float: left;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    display: block;
+    padding: 24px 30px;
+    font-size: 13px;
+  
+}
 
 
 nav {
