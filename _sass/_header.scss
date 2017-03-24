@@ -13,10 +13,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #55696c;
   
   @include mobile {
     text-align: center;
   }
+}
+
+.site-info {
+  color: white;
 }
 
 
