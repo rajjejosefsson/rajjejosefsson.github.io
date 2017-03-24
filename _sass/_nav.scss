@@ -1,10 +1,6 @@
 
 
-nav {
-  
-  
-  
-  .nav {
+.nav {
   text-align: center;
   width: 100%;
  }
@@ -12,10 +8,11 @@ nav {
 .nav li {
   float: left;
 }
-  
-  
 
-  @include mobile {
+
+
+nav {
+   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
