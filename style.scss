@@ -266,18 +266,16 @@ nav {
   }
 
   .read-more-button {
-    font-size: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #b1b1b1;
+    border: 1px solid rgba(0,0,0,0.15);
+    padding: 13px 23px 13px 26px;
+    border-radius: 26px;
   }
 }
 
-input, textarea, read-more-button, a {
-  transition: 0.2s color ease,
-              0.2s background ease;
 
-  &:focus {
-    outline: none;
-  }
-}
 
 
 .wrapper-footer {
