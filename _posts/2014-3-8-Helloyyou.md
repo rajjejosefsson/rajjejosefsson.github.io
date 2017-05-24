@@ -3,8 +3,21 @@ layout: post
 title: Number 8
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+#### Observer example
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Before we dive into our real world example, let's give a basic one.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+As we've setup our Observable function, we can now invoke our observer, passing in `1` as a value and subscribe to it:
+
+```js
+const one$ = new Observable((observer) => {
+  observer.next(1);
+  observer.complete();
+});
+
+one$.subscribe({
+  next: (value) => console.log(value) // 1
+});
+```
+
+We subscribe to the Observable instance, and pass our observer (object literal) into the constructor (which is then assigned to `this.subscribe`).
