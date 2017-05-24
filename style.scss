@@ -178,6 +178,17 @@ img {
     font-style: italic;
   }
 
+
+  pre {
+    border-left: 4px solid #7953b5;
+    position: relative;
+    overflow: visible;
+    white-space: pre;
+    word-wrap: normal;
+    background: #2d313a;
+    color: #C1C2C3;
+  }
+
   .comments {
     margin-top: 10px;
   }
@@ -218,6 +229,7 @@ div.pagination {
 .pagination a {
   margin: 0 5px;
 }
+
 
 footer {
   padding: 20px 0;
