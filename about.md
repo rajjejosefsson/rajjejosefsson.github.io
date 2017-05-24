@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello!
-<img src="{{ site.avatar }}" width="150"/>
+<img src="{{ site.avatar }}" width="100" height="100"/>
 
 
 ### More Information
