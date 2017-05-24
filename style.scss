@@ -208,6 +208,17 @@ img {
   background-color: $lightGray;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination em,
+.pagination a {
+  margin: 0 10px;
+}
+
 footer {
   padding: 20px 0;
   text-align: center;
