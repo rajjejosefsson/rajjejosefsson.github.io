@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hello!
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+My name is Rasmus I am a passionate developer with a passion for solving problems,architecting scalable and modularized software. With my curious and self-starter nature drives me to continually explore new technologies and frameworks. This has made it easy for me to fast and quickly analyze their pros and cons.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[josefssonrasmus@hotmail.se](mailto:josefssonrasmus@hotmail.se)
