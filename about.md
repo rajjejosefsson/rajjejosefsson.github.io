@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Hello!
-<img src="{{ site.avatar }})" width="150"/>
+<img src="{{ site.avatar }}" width="150"/>
 
 
 ### More Information
